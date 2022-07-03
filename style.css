@@ -1,0 +1,57 @@
+@import url(https://fonts.google.com/specimen/Manrope);
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 10%;
+    left: 43%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: 'Manrope';
+    background: hsl(218, 23%, 16%);
+    color: white;
+    z-index: 99;
+}
+
+.advice-card {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    border-radius: 10px;
+    z-index: 100;
+    background-color: hsl(217, 19%, 24%);
+    width: 400px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advice-card h5 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);
+}
+
+.advice-card img {
+    width: 300px;
+}
+
+.advice-card p {
+    font-size: 24px;
+    margin-top: -10px;
+    text-align: center;
+    padding: 10px;
+    color: hsl(193, 38%, 86%);
+    font-weight: 600;
+}
+
+#icon {
+    width: 50px !important;
+    height: 50px !important;
+}
